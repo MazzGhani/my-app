@@ -1,8 +1,11 @@
 import React from "react";
-import Home from "./home/Home";
+import Home from "./pages/home/Home";
 import NavBar from "./navbar/NavBar";
+import About from "./pages/about/About"
 import './navbar/navbar.scss';
-import './home/home.scss';
+import './pages/home/home.scss';
+import './pages/about/about.scss';
+
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -12,7 +15,10 @@ function App()  {
      <Router>
         <NavBar/>
        <Routes>
-        <Route exact path="/" element={<Home />}></Route>
+        <Route exact path="/" element={<Home />}>
+
+        </Route>
+        <Route exact path="/about" element={<About />}></Route>
       </Routes>
     </Router> 
   );

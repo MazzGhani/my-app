@@ -1,0 +1,51 @@
+.backroundColor{
+  background-color:  #c7df8f; /* For browsers that do not support gradients */
+  background-image: linear-gradient( #c7df8f, white);  
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+}
+
+
+.mainFooter{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.home-buttons{
+  margin: auto;
+  width: 50%;
+  margin-top: 1pc;
+}
+
+.mainButton{
+  text-decoration: none;
+  margin-right: 4pc;
+  color: black;
+}
+
+
+@keyframes shadow-pulse
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 35px #c7df8f;
+  }
+}
+
+
+.social-button
+{
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  margin-right: 4pc;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 0%;
+  width: 4pc;
+  height: 4pc;
+  animation: shadow-pulse 2s infinite;
+}
+
