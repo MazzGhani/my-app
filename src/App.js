@@ -7,6 +7,7 @@ import './pages/home/home.scss';
 import './pages/about/about.scss';
 
 
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
@@ -15,8 +16,8 @@ function App()  {
      <Router>
         <NavBar/>
        <Routes>
-        <Route exact path="/" element={<Home />}>
-
+        <Route exact path="/" element={<Home />
+      }>
         </Route>
         <Route exact path="/about" element={<About />}></Route>
       </Routes>

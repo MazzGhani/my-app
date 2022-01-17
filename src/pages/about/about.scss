@@ -1,6 +1,6 @@
 .backroundColor{
-    background-color:  #c7df8f; /* For browsers that do not support gradients */
-    background-image: linear-gradient( #c7df8f, white);  
+    background-color:  white; /* For browsers that do not support gradients */
+    background-image: white;  
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
   }
@@ -9,6 +9,7 @@
       position: absolute;
       color: beige;
       text-indent: 1pc;
+      font-size: 46px;
   }
 .topImage{
     position: relative;
@@ -16,8 +17,9 @@
 
 .bottomP{
     position: absolute;
+    font-family: 'Oswald', sans-serif;
     color: green;
     margin-top: 20pc;
     font-size: 3pc;
-    font-weight: 900;
+    border: 1px solid black;
 }
