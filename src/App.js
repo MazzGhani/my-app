@@ -13,15 +13,16 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App()  {
   return (
-     <Router>
-        <NavBar/>
-       <Routes>
-        <Route exact path="/" element={<Home />
-      }>
-        </Route>
-        <Route exact path="/about" element={<About />}></Route>
-      </Routes>
-    </Router> 
+    <Home/>
+    //  <Router>
+    //     <Home/>
+    //    <Routes>
+    //     <Route exact path="/" element={<Home />
+    //   }>
+    //     </Route>
+    //     <Route exact path="/about" element={<About />}></Route>
+    //   </Routes>
+    // </Router> 
   );
 
 }
