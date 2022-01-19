@@ -1,0 +1,12 @@
+.mainBackround{
+    background-color:#83746e ;
+}
+.mainTitleName{
+    color:#1f232c ;
+    font-family: 'Roboto Mono', monospace;
+}
+.mainTitleDesc{
+    color:hsl(222, 17%, 15%) ;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+}
