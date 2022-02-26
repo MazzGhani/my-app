@@ -1,5 +1,7 @@
 import React from 'react'
 import "./main.css"
+import GitHubIcon from "@mui/icons-material/GitHub";
+
 export default function Main() {
     return (
         <div >
@@ -32,7 +34,10 @@ export default function Main() {
                 Studying at the <a style={{textDecoration : 'none', color:'green'}} href="https://www.usask.ca/ "> University of Saskatchewan </a> 
                   and pursuing a Bacherlors in Computer Science (4th year).
                   <p> I'm also close to finishing my Minor is Psychology in retation to my Bachelors Degree.
-                      I've learned a numerous amount of skills throughout my University career. Ranging from the basics of multiple languages, the complexity of algorithms , and plenty of soft skills with group work.
+                      I've learned a numerous amount of skills throughout my University career.
+                       <br />
+                       <br />
+                        Ranging from the basics of multiple languages, to the complexity of algorithms , and plenty of soft skills with group work.
                   </p>
  
                 </p>
@@ -71,10 +76,8 @@ export default function Main() {
             </div>
             <div className='links'>
                 <h1 className='subTitles'>LINKS</h1>
-                <li>
-                    <a href="https://github.com/MazzGhani">GitHub </a>
-                    <a href="https://www.linkedin.com/in/mazz-ghani-412a37205/">LinkedIn</a>
-                </li>
+                <GitHubIcon href="https://github.com/MazzGhani"/>
+                    <a className='linksBottom' href="https://www.linkedin.com/in/mazz-ghani-412a37205/">LinkedIn</a>
             </div>
             <div>
                 <h1>EXPERIENCE</h1>
@@ -95,6 +98,9 @@ export default function Main() {
                     Languages
                 </div>
             </div>
+
         </div>
     )
 }
+
+

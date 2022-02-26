@@ -2,19 +2,17 @@ body{
     background-color:white;
 
 }
-
-.titleRight{
-    text-align: center;
-    color:#1f232c ;
-    font-family: 'Cairo', sans-serif;
-}
-
 .mainTitleName{
     color:#1f232c ;
     font-size: 25px;
     color: #83746e;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
 }
 
 .subTitle{
@@ -35,8 +33,7 @@ body{
 
 .wrapperDescription{
     text-align: center;
-    inline-size: 500px;
-    width: 640px; /* Can be in percentage also. */
+    width: 400px; /* Can be in percentage also. */
     height: auto;
     margin: 0 auto;
     padding: 10px;
@@ -126,4 +123,7 @@ html{
 .buttonStyle{
     text-decoration: none;
     color: #000000;
+}
+.linksBottom{
+    text-decoration: none;
 }
