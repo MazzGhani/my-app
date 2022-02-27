@@ -109,14 +109,11 @@ html{
 }
 
 #salamSection{
-    height:300px;
-    background-color: aliceblue;
-
+    /* font-size: 2pc; */
 }
 
 #bonjourSection{
     height:300px;
-    background-color: aliceblue;
 
 }
 

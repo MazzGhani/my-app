@@ -63,6 +63,7 @@ export default function Main() {
             <div className='project1'>
                 <div className='project1Title'>
                     SKILLS
+                    <br />
                     <li> HTML | CSS</li>
                     <li>JS | REACT</li>
                     <li>C# | UNITY </li>
@@ -108,7 +109,13 @@ export default function Main() {
                            Using my BASH and technical skills to help organize the company computer.
                        </li>
                        <li>
-                           Helping customers purchase | fix |  debugg their technical issues.
+                           Helping customers fix & debugg their technical issues.
+                       </li>
+                       <li>
+                           Selling phone cases & phones to customers.
+                       </li>
+                       <li>
+                           Debugging issues with phones, laptops, and desktops.
                        </li>
                        <li>
                            Kept tabs on the newest trends and waves of technology.
@@ -121,14 +128,23 @@ export default function Main() {
                 </div>
         
             </div>
-            <div>
-                <h1 className="subTitles" id='salamSection'>ABOUT ME</h1>
-                <div>
-                    INTERESTS
-                    HOBBIES 
+            <div id='salamSection' className='description'>
+                <h1 style={{textAlign:"center"}} className="subTitles" >ABOUT ME</h1>
+                <div className='wrapperDescription'>
+                    I've recently grown an interest in web development due to taking a intro web development course in university.
+                    <p>This includes starting my projects with REACT while also hardening my CSS and HTML skills. I plan to apply my skills to help smaller businesses in Saskatoon to upgrade their websites in the near future.</p>
+                    <p>I also enjoy playing video games and watching some basketball in my free-time.</p>
+
                 </div>
-                <div className="subTitles" id='bonjourSection'>
-                    Languages
+                <div className="description" id='bonjourSection'>
+                <h1 style={{textAlign:"center"}} className="subTitles" >LANGUAGES</h1>
+                <div className='wrapperDescription'>
+                <p>
+                Je suis né à Montréal, mais j'ai déménagé à Saskatoon après la quatrième année. 
+                J'ai poursuivi mes études en français à Saskatoon à <a target={"_blank"} rel="noreferrer" style={{textDecoration : 'none', color:'green'}} href="http://canadienne-francaise.ecolefrancophone.com/"> l'École Canadienne Française Pavillon Gustave Dubois </a>  jusqu'à des cours 
+                universitaires suivis à l'Université de la Saskatchewan.                    
+                </p> 
+                </div>
                 </div>
             </div>
 
