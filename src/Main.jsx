@@ -2,6 +2,8 @@ import React from 'react'
 import "./main.css"
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import ImageSlider from "./ImageSlider";
+import {SliderData} from './SliderData';
 
 export default function Main() {
     return (
@@ -47,35 +49,8 @@ export default function Main() {
         
             </div>
 
-            <div className='mainskills'>
-            <h1 className='subTitles' id='HiSection'>SKILLS & PROJECTS</h1>
-            <div id='container'>
-         <div className='project1'>
-                <div className='project1Title'>
-                    MERN STACK
-                </div>
-            </div>
-            <div className='project1'>
-                <div className='project1Title'>
-                    UNITY APP PROJECT
-                </div>
-            </div>
-            <div className='project1'>
-                <div className='project1Title'>
-                    SKILLS
-                    <br />
-                    <li> HTML | CSS</li>
-                    <li>JS | REACT</li>
-                    <li>C# | UNITY </li>
-                    <li> JAVA | C</li>
-                    <li>SCALA | MIPS</li>
-                    <li>PYTHON | BLENDER</li>
-                </div>
-            </div>
-
-            </div>
-   <br />
-            </div>
+    <ImageSlider slides={SliderData}/>
+    
             <div className='links'>
                 <h1 className='subTitles'>LINKS</h1>
                 <a target={"_blank"} rel="noreferrer" href="https://github.com/MazzGhani">
@@ -147,10 +122,6 @@ export default function Main() {
                 </div>
                 </div>
             </div>
-<br />
-<br />
-<br />
-<br />
         </div>
         
     )

@@ -6,13 +6,9 @@ import {SliderData} from './SliderData';
 
 function App()  {
   return (
-    <Fragment>
+    // <Fragment>
     <Main/>
-    <ImageSlider slides={SliderData}/>
-    </Fragment>
-
-
-    
+    // </Fragment>
   );
 
 }
