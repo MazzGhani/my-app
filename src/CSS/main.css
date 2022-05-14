@@ -29,6 +29,7 @@ body{
     color:#1f232c ;
     font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10pc;
 }
 
 .wrapperDescription{
@@ -108,9 +109,7 @@ html{
     height:100px;
 }
 
-#salamSection{
-    /* font-size: 2pc; */
-}
+
 
 #bonjourSection{
     height:300px;
@@ -126,3 +125,28 @@ html{
     color: #1f232c;
     margin: 2pc;
 }
+
+.console {
+    font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+  }
+
+  .typewriter  {
+    overflow: hidden; 
+    border-right: .15em solid green; 
+    white-space: nowrap; 
+    margin: 0 ; 
+    letter-spacing: .10em; 
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: green; }
+  }

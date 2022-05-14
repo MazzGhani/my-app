@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import {SliderData} from './SliderData';
 import {FaArrowAltCircleRight,FaArrowAltCircleLeft} from "react-icons/fa"
 import { sliderClasses } from "@mui/material";
-import "./slider.css"
+import "./CSS/slider.css"
 
 
 const ImageSlider=({slides}) =>{
@@ -24,22 +24,21 @@ const prevSlide = () => {
 
     return(
 <section className="slider">
-<FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
-      <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
+
 
 {SliderData.map((slide,index,i)=>{
     return( 
-        <div
-            className={index === current ? 'slide active' : 'slide'}
-            key={index}
-          >
-            {index === current && (
-              <img src={slide.image} alt='travel image' className='image' />
-            )}
-          </div>
-    );
-})}
+        <div className={index === current ? 'slide active' : 'slide'} key={index} >
+          <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
+          <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
+          {index === current && (
+            <img src={slide.image} alt='travel image' className='image' />
+              
+          )}
+        </div>
+          );
+  })}
 </section>
-    );
-};
+        );
+          };
 export default ImageSlider;
