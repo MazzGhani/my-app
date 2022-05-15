@@ -1,6 +1,12 @@
 import React from 'react'
 import "./CSS/main.css"
 import { FaAngleRight } from "react-icons/fa";
+import { FaHammer } from "react-icons/fa";
+import { FaMoneyBillAlt } from "react-icons/fa";
+import { FaBug } from "react-icons/fa";
+import { FaLaptopCode } from "react-icons/fa";
+
+
 
 export const Experience = () => {
   return (
@@ -25,19 +31,19 @@ export const Experience = () => {
            Such As:
            <div className='typewriter'>
             <FaAngleRight/> Coding in BASH script</div>
-           {/* <li>
-               Helping customers fix & debugg their technical issues.
-           </li>
-           <li>
-               Selling phone cases & phones to customers.
-           </li>
-           <li>
-               Debugging issues with phones, laptops, and desktops.
-           </li>
-           <li>
-               Kept tabs on the newest trends and waves of technology.
-           </li>
-           <li>Worked with mobiles, computers, and laptops.</li> */}
+            <div>
+            <FaHammer/>  Helping customers fix & debugg their technical issues.
+            </div>
+            <div >
+            <FaMoneyBillAlt />   Selling phone cases & phones to customers.
+            </div>
+            <div>
+            <FaBug/>    Debugging issues with phones, laptops, and desktops.
+            </div>
+            <div>
+            <FaLaptopCode/>    Kept tabs on the newest trends and waves of technology.
+            </div>
+           <li>Worked with mobiles, computers, and laptops.</li>
       </p>
 
     </p>
