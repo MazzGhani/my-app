@@ -6,6 +6,8 @@ import ImageSlider from "./ImageSlider";
 import {SliderData} from './SliderData';
 import { Experience } from './Experience';
 import { Intro } from './Intro';
+import { Projects } from './Projects';
+import { Blender } from '@mui/icons-material';
 
 export default function Main() {
     return (
@@ -34,7 +36,8 @@ export default function Main() {
 
     <Intro/>
     <ImageSlider slides={SliderData}/>
-    
+    <Projects/>
+
             <div className='links'>
                 <h1 className='subTitles'>LINKS</h1>
                 <a target={"_blank"} rel="noreferrer" href="https://github.com/MazzGhani">
@@ -66,6 +69,8 @@ export default function Main() {
                 </div>
                 </div>
             </div>
+        <canvas id="bg"></canvas>
+        <script type='module' src='./Blender.js'></script>
         </div>
         
     )

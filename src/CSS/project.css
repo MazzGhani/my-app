@@ -1,0 +1,39 @@
+.PlayButton{
+    font-size: 6rem;
+    border: none;
+    background-color: transparent;
+    background: linear-gradient(to right, white 50%, black 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+
+}
+
+.playbuttonArea{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.PlayButton:hover{
+    background-position: left bottom;
+
+}
+
+.PlayButtonText:hover{
+    color: cyan;  
+}
+
+.PlayButtonText{
+    text-align: center;
+    font-size: 16px;
+    line-height: 10px; 
+    color: black;
+    transition: all .6s ease-out;
+    display: block;
+    font-size: 5pc;
+    font-family: 'Courier New', Courier, monospace;
+}
