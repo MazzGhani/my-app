@@ -7,6 +7,10 @@ import { Intro } from './Intro';
 import { Experience } from './Experience';
 import { Links } from "./Links";
 import { Languages } from "./Languages";
+import React, { useRef, useEffect } from 'react'
+import Home from "./Home";
+
+
 
 
 function App()  {
@@ -19,6 +23,8 @@ function App()  {
     <Links/>
     <Experience/>
     <Languages/>
+    {/* <Home/> */}
+    
 
 
     </div>
