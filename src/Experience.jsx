@@ -13,7 +13,7 @@ export const Experience = () => {
     <div className='description' >
     <h1 style={{textAlign:"center"}}  className='subTitles'>EXPERIENCE</h1>
     <div className='wrapperDescription'>
-    <p> Will be working at <a target={"_blank"} rel="noreferrer" style={{textDecoration : 'none', color:'green' }} href="https://sites.google.com/shopify.com/jrsptadvisor/home"> Shopify </a> as a Junior Support Advisor.
+    <p> <a target={"_blank"} rel="noreferrer" style={{textDecoration : 'none', color:'green' }} href="https://sites.google.com/shopify.com/jrsptadvisor/home"> Shopify </a> as a Junior Support Advisor.
     <p>
         From March 2022 - August 2022 (Contract)
     </p>
@@ -47,6 +47,11 @@ export const Experience = () => {
       </p>
 
     </p>
+    <div> <a target={"_blank"} rel="noreferrer" style={{textDecoration : 'none', color:'brown' }} href="https://maryandemmy.vercel.app/"> Mary Liv & Emmy Lou </a> musician website.
+    <p>
+        Created a website that can users can see recent shows, admin can create shows,delete them, and there's also the addition of THREE JS on the site
+    </p>
+    </div>
 
     </div>
 

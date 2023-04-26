@@ -4,16 +4,15 @@ import "./CSS/main.css"
 export const Intro = () => {
   return (
     <div className='description' >
-    {/* <h1 className=''>EDUCATION</h1> */}
     <div className='wrapperDescription'>
     <div>
-    Studying at the <a target={"_blank"} rel="noreferrer" style={{textDecoration : 'none', color:'green'}} href="https://www.usask.ca/ "> University of Saskatchewan </a> 
-      and pursuing a Bacherlors in Computer Science (4th year).
-      <p> I'm also close to finishing my Minor is Psychology in retation to my Bachelors Degree.
+    <a target={"_blank"} rel="noreferrer" style={{textDecoration : 'none', color:'green'}} href="https://www.usask.ca/ "> Education: University of Saskatchewan </a> 
+     Bachelors Degree in Computer Science 
+      <p> With a minor in Psychology.
           I've learned a numerous amount of skills throughout my University career.
            <br />
            <br />
-            Ranging from the basics of multiple languages, to the complexity of algorithms , and plenty of soft skills with group work.
+            Ranging from the basics of multiple languages, to the complexity of algorithms , and plenty of soft skills with group work. Some languages are JavaScript, HTML,CSS, REACT, Scala,Java, C, Pyton, and many more.
       </p>
     </div>
     </div>

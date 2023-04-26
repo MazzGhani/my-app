@@ -18,13 +18,13 @@ function App()  {
 
       
       <Main/>
-      <Intro/>
       <div style={{height:"50vh", width:"100%"}}>
-
     <spline-viewer 
     
     url="https://prod.spline.design/L-xaHkPSSkpROSeB/scene.splinecode"></spline-viewer>
       </div>
+      <Intro/>
+
 
     {/* <ImageSlider slides={SliderData}/> */}
     <Projects/>
