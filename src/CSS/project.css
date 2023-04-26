@@ -2,17 +2,13 @@
     font-size: 6rem;
     border: none;
     background-color: transparent;
-    background: linear-gradient(to right, white 50%, black 50%);
-    background-size: 200% 100%;
-    background-position: right bottom;
-    transition: all .5s ease-out;
+    margin-top: 20%;
 
 }
 
 .playbuttonArea{
-    margin-top: 10%;
-    margin-bottom: 5%;
-    display: flex;
+    /* margin-bottom: 5%; */
+    display: block;
     align-items: center;
     justify-content: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -25,7 +21,7 @@
 
 .PlayButtonText:hover{
     color: cyan;  
-}
+} 
 
 .PlayButtonText{
     text-align: center;
@@ -36,4 +32,4 @@
     display: block;
     font-size: 5pc;
     font-family: 'Courier New', Courier, monospace;
-}
+} 

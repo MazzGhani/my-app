@@ -6,7 +6,7 @@ export const Intro = () => {
     <div className='description' >
     {/* <h1 className=''>EDUCATION</h1> */}
     <div className='wrapperDescription'>
-    <p >
+    <div>
     Studying at the <a target={"_blank"} rel="noreferrer" style={{textDecoration : 'none', color:'green'}} href="https://www.usask.ca/ "> University of Saskatchewan </a> 
       and pursuing a Bacherlors in Computer Science (4th year).
       <p> I'm also close to finishing my Minor is Psychology in retation to my Bachelors Degree.
@@ -15,7 +15,7 @@ export const Intro = () => {
            <br />
             Ranging from the basics of multiple languages, to the complexity of algorithms , and plenty of soft skills with group work.
       </p>
-    </p>
+    </div>
     </div>
 </div>
   )

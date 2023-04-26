@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import {SliderData} from './SliderData';
+// import {SliderData} from './imageSlider/SliderData.js';
+import { SliderData } from "/MyProjects/my-app/src/imageSlider/SliderData"
 import {FaArrowAltCircleRight,FaArrowAltCircleLeft} from "react-icons/fa"
-import { sliderClasses } from "@mui/material";
-import "./CSS/slider.css"
+import "../CSS/slider.css"
 
 
 const ImageSlider=({slides}) =>{
@@ -32,7 +32,7 @@ const prevSlide = () => {
           <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
           <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
           {index === current && (
-            <img src={slide.image} alt='travel image' className='image' />
+            <img src={slide.image} alt='travel pic' className='image' />
               
           )}
         </div>

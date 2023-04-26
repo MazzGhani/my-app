@@ -17,7 +17,7 @@
     top: 45%;
     right: 0pc;
     font-size: 6rem;
-    color: black;
+    color: green;
     z-index: 10;
     cursor: pointer;
     user-select: none;
@@ -28,7 +28,7 @@
     top: 45%;
     left: 0pc;
     font-size: 6rem;
-    color: black;
+    color: green;
     z-index: 10;
     cursor: pointer;
     user-select: none;
