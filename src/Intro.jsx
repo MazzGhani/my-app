@@ -8,12 +8,12 @@ export const Intro = () => {
     <div>
     <a target={"_blank"} rel="noreferrer" style={{textDecoration : 'none', color:'green'}} href="https://www.usask.ca/ "> Education: University of Saskatchewan </a> 
      Bachelors Degree in Computer Science 
-      <p> With a minor in Psychology.
+      <div> With a minor in Psychology.
           I've learned a numerous amount of skills throughout my University career.
            <br />
            <br />
             Ranging from the basics of multiple languages, to the complexity of algorithms , and plenty of soft skills with group work. Some languages are JavaScript, HTML,CSS, REACT, Scala,Java, C, Pyton, and many more.
-      </p>
+      </div>
     </div>
     </div>
 </div>

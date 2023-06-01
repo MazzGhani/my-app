@@ -5,9 +5,10 @@ export const Languages = () => {
     <div id='salamSection' className='description'>
     <h1 style={{textAlign:"center"}} className="subTitles" >ABOUT ME</h1>
     <div className='wrapperDescription'>
-        I've recently grown an interest in web development due to taking a intro web development course in university.
-        <p>This includes starting my projects with REACT while also hardening my CSS and HTML skills. I plan to apply my skills to help smaller businesses in Saskatoon to upgrade their websites in the near future.</p>
-        <p>I also enjoy playing video games and watching some basketball in my free-time.</p>
+        My interest in Full Stack Development was mainly from seeing interactive websites from 
+        <a style={{textDecoration : 'none', color:'gold' }} href="https://www.awwwards.com/"> Awwwards</a>
+        <p>This started my journey into Three JS and React-Three-Fiber.So a huge part of my Developer identity right now is creating interactive 3D sites. </p>
+        <p>I also enjoy playing video games and watching basketball in my free-time.</p>
 
     </div>
     <div className="description" id='bonjourSection'>
